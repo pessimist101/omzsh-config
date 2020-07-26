@@ -14,7 +14,7 @@ for line in f.split('\n'):
 
 config = '\n'.join(config)
 
-with open('.new-zshrc','w') as f:
+with open('.zshrc','w') as f:
     f.write(config)
     print('Written config to file!')
 
