@@ -1,6 +1,13 @@
 export ZSH="/home/issy/.oh-my-zsh"
 ZSH_THEME="agnoster"
-plugins=(git)
+plugins=(git
+	git-extras
+	zsh-completions
+	zsh-autosuggestions
+	zsh-syntax-highlighting
+	tmux
+	vscode
+)
 source $ZSH/oh-my-zsh.sh
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='nano'
